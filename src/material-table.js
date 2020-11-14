@@ -20,6 +20,7 @@ export default class MaterialTable extends React.Component {
 
   constructor(props) {
     super(props);
+    console.log("heu");
 
     const calculatedProps = this.getProps(props);
     this.setDataManagerFields(calculatedProps, true);

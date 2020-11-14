@@ -1,6 +1,7 @@
 {
   "extends": ["standard", "eslint:recommended", "plugin:react/recommended"],
   "rules": {
+    "no-console": "off",
     "one-var": "off",
     "semi": ["error", "always", {
       "omitLastInOneLineBlock": true
